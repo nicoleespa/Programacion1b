@@ -1,24 +1,31 @@
+
+//Creado por Nicole Guagua 
+                          //Programa de contabilizacion
+
 #include<iostream>
 using namespace std;
 
 int main()
 {
-	int i=0,l;
-	float x,s=0;
-	cout<<"ingrese el limite l="; cin>>l;
-	do{
+	int N=0,G;
+	float E,M=0;
+	cout<<"ingrese el limite G="; cin>>G;
+	do
+	{
 		
-	cout<<"ingrese el numero x="; cin>>x;
-	i=i+1;
-	s=s+x;
+	cout<<"ingrese el numero E="; cin>>E;
+	N=N+1;
+	M=M+E;
 
 
 
-	}while(i<l);
-	cout<<"Se ingresaron "<<l<<" numeros "<< "que sumaron "<<s<<endl;
+	}
+	while(N<G);
+	cout<<"Se ingresaron "<<G<<" numeros "<< "que sumaron "<<M<<endl;
 	return 0;
 
 
 
 }
-
+//curso 1ro "B" TICS
+//2022...//

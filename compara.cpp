@@ -1,17 +1,22 @@
+
+                                                                     //Comparacion Numeros
 #include<iostream>
 using namespace std;
 int main()
 {
-	float a,b;
-	cout<<"ingrese a b:"; cin>>a>>b;
-	if(a>b)
+	float N,g;
+	cout<<"ingrese N g:"; cin>>N>>g;
+	if(N>g)
+
 	{
-	  cout<<a<<" es mayor a "<<b<<endl;
+	  cout<<N<<" es mayor N "<<g<<endl;
 
 
-	}else{
+	}
+	else
+	{
 
-	  cout<<b<<" es mayor a "<<a<<endl;
+	  cout<<g<<" es mayor N "<<N<<endl;
 
 
 	}
@@ -19,9 +24,7 @@ int main()
 	return 0;
 
 
-
-
-
-
 }
+//Programa creado Por Nicole Guagua
+// 1ro Tics "B"
 

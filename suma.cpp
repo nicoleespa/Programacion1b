@@ -1,16 +1,18 @@
-//Creado por stalin
+//Creado por Nicole Guagua
+//1ro Tics "B" 
+                                                  //suma 
 #include<iostream>
 using namespace std;
 
 int main()
 {
 
- float x,y,z;
- cout<<"Ingrese 2 numero x y :";
- cin>>x>>y;
- z=x+y;
+ float N,G,E;
+ cout<<"Ingrese 2 numero N G :";
+ cin>>N>>G;
+ E=N+G;
  cout<<"El resutado es : ";
- cout<<z<<endl;
+ cout<<E<<endl;
 
  return 0;
 

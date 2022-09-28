@@ -1,28 +1,28 @@
-//Programa que presenta las operaciones básicas
-//Creado por Stalin Francis 
-//Fecha: 14-09-2022
-
+                                                      //Programa que calcula numeros
 #include<iostream>
 using namespace std;
 
 int main()
 {
-	float x,y,s,m,d,r;
-	//Ingreso de datos
-	cout<<"Ingrese en valor de x=:";
-	cin>>x;
-	cout<<"Ingrese en valor de y=:";
-	//Operaciones 
-	cin>>y;
-	s=x+y;
-	m=x*y;
-	d=x/y;
-	r=x-y;
-	//Muestra los resutaldos.
-	cout<<"Las suma de "<<x<<" + "<<y<<" = "<<s<<endl;
-	cout<<"Las multiplicacion de "<<x<<" * "<<y<<" = "<<m<<endl;
-	cout<<"Las division de "<<x<<" / "<<y<<" = "<<d<<endl;
-	cout<<"Las resta de "<<x<<" - "<<y<<" = "<<r<<endl;
+	float n,g,h,e,m,z;
+	//datos ingresados
+	cout<<"Ingrese en valor de n=:";
+	cin>>n;
+	cout<<"Ingrese en valor de g=:";
+	//Operaciones basicas
+	cin>>g;
+	h=n+g;
+	e=n*g;
+	m=n/g;
+	z=n-g;
+	// resutaldos.
+	cout<<"Las suma de "<<n<<" + "<<g<<" = "<<h<<endl;
+	cout<<"Las multiplicacion de "<<n<<" * "<<g<<" = "<<e<<endl;
+	cout<<"Las division de "<<n<<" / "<<g<<" = "<<m<<endl;
+	cout<<"Las resta de "<<n<<" - "<<g<<" = "<<z<<endl;
 	return 0 ;
 }
+ 
+//Creado por Nicole Guagua
+// 1ro "B" Tics
 
